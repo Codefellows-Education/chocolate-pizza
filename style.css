@@ -110,7 +110,7 @@ form {
 fieldset {
   width: 40%;
   height: 222px;
-  padding-top: 33px;
+  padding-top: 35px;
   padding-left: 50px;
 }
 
@@ -128,9 +128,11 @@ input {
 }
 
 form label {
-  font-size: 200%;
+  color: #333;
+  font-size: 150%;
   display: block;
   font-family: 'Patrick Hand', cursive;
+  line-height: 30px;
 }
 
 feildset label {
@@ -140,4 +142,25 @@ feildset label {
 input {
   margin-top: 14px;
   margin-right: 10px;
+}
+
+.line {
+  /* border-bottom: 1px solid grey; */
+  text-decoration: line-through;
+  /* position: absolute; */
+}
+
+#chopped {
+  display: block;
+  top: 200px;
+  right: 100px;
+  position: absolute;
+}
+
+#vanessa {
+  background-image: url('img/500_F_81783330_v8bFGsNmkvaje3vIcV2C8CheinxkLYB6.jpg');
+  background-repeat: repeat-x;
+  background-size: 10px;
+  padding-top:20px;
+  margin-top:40px;
 }
