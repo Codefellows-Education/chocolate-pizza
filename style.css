@@ -27,14 +27,15 @@ header>img {
 }
 
 nav {
-  position:relative;
-  right:0;
-  top:15px;
+  position:absolute;
+  left: 766px;
+  top:60px;
   margin-top: -42px;
 }
 
 #space {
   margin-left:4px;
+  /* padding-left: 591px; */
 }
 
 header li img {
@@ -44,6 +45,12 @@ header li img {
 header ul {
   display: inline;
   margin-top: -10px;
+  width: 400px;
+}
+
+header div {
+  display: inline-block;
+  width: 159px;
 }
 
 main {
@@ -160,7 +167,65 @@ input {
 #vanessa {
   background-image: url('img/500_F_81783330_v8bFGsNmkvaje3vIcV2C8CheinxkLYB6.jpg');
   background-repeat: repeat-x;
-  background-size: 10px;
+  background-size: 15px;
+  border-bottom: 1px solid grey;
+  height: 200px;
   padding-top:20px;
   margin-top:40px;
+}
+
+#vanessa img {
+  float: left;
+  padding-right: 20px;
+}
+
+#vanessa h3 {
+  font-size: 140%;
+  font-weight: bold;
+  padding-top: 30px;
+  /* padding-bottom:10px; */
+}
+
+main #vanessa p {
+  float: left;
+  line-height: 30px;
+ padding-top: 10px;
+ text-indent: 0px;
+ width: 75%; 
+}
+
+button {
+  border: none;
+  height: 60px;
+  width: 134px;
+  background-color: #BC7058;
+  color: #eee;
+  font-family: "Abel", sans-serif;
+  font-size: 110%;
+  margin-top: -15px;
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+footer img {
+  border-left: 10px solid white;
+  border-right: 10px solid white;  
+  display: block;
+  margin: auto;
+  margin-top: -20px;
+  /* padding: 4px; */
+  z-index: 2;
+}
+
+footer p {
+  /* line-height: 30px; */
+  text-align: center;
+  color: grey;
+}
+
+footer p:first-of-type {
+  padding-top: 30px;
 }
