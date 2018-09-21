@@ -1,5 +1,6 @@
 body {
-  width: 90%;
+  /* width: 90%; */
+  width: 901px;
   margin: auto;
 }
 
@@ -79,6 +80,12 @@ main section>img {
   margin-top: 30px;
 }
 
+main section>p {
+  font-size: 140%;
+  padding: 25px 0 0 0;
+  text-indent: 30px;
+}
+
 #print {
   float: right;
   margin-top :-20px;
@@ -86,4 +93,30 @@ main section>img {
 
 #print p {
   float: right;
+}
+
+#recipe {
+  background-image: url("img/list-bg.png");
+  background-repeat: none;
+  height: 300px;
+  margin-top: 30px;
+  z-index: -1;
+}
+
+form {
+  height: 300px;
+}
+
+fieldset {
+  width: 50%;
+  height: 20px;
+}
+
+fieldset:first-child {
+  float:left;
+}
+
+checkbox {
+  width: 50%;
+  height: 20px;
 }
